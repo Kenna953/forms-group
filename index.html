@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title> Reservation at a restauraunt | visible in tab bar </title>
+        </head>
+
+    <body>
+
+        <form>
+
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first_name" required />
+            </br>
+            <label for="last-name">Last Name:</label>
+             
+            <input type="text" id="last-name" name="last_name" required />
+            </br>
+            <label for="phone">Phone Number:</label>
+            <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="123-456-7890"
+            required
+            />
+            </br>
+            <label for="people">Number of People:</label>
+            <input type="number" id="people" name="people" min="1" required>
+            </br>
+
+            <label for="date">Reservation Date</label><br>
+            <input type="date" id="date" name="date"required><br>
+            <label for="time">Reservation Time</label><br>
+            <input type="time" id="time" name="time" required><br><br>
+
+            <input type="checkbox" id="Consent" name="Contact Consent" value="Contact" required>
+            <label for="Contact Consent"> Consent to receive contact via SMS?</label>
+
+            </br>
+            <input type="button" value="Submit">
+
+        </form>
+
+
+    </body>
+</html>
